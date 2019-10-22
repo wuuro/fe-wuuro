@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "name": "wuuro-home",
+  "builds": [
+    {
+      "src": "next.config.js",
+      "use": "@now/next"
+    }
+  ]
+}
