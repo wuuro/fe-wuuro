@@ -12,6 +12,11 @@ const Index: React.FunctionComponent = () => {
           color: red;
           font-size: 40px;
           }
+        
+        img {
+          height: 80px;
+          width: 100;
+        }
         .main_imagen {
           height: 250px;
           background-position: center center;
@@ -59,12 +64,13 @@ const Index: React.FunctionComponent = () => {
         
         }
       `}</style>
-      <header>Wuuro</header>
+      <header>
+        <img src="/static/images/logo_wuuro.png" alt="" />
+      </header>
       <section className="main_imagen"></section>
       <section className="info">
         <h2>
-          Separa tu almuerzo y disfruta de nuestra delicias estamos seguros que
-          regresaras
+        Separa tu almuerzo y disfruta de nuestras delicias, tu palabra te lo agradecerá.
         </h2>
         <small>por solo 10.000$ pesitos por tu primer pedido</small>
 

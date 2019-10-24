@@ -11,7 +11,7 @@ const layoutStyle = {
   "flex-direction": "column",
   border: "1px solid #DDD",
   backgroundColor: "white",
-  color: "white",
+  color: "black",
   height: "100vh"
 };
 
