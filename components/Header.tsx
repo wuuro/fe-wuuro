@@ -1,7 +1,7 @@
 const headerStyle = {
   display: 'flex',
   'flex-direction': 'row',
-  height: '80px'
+  height: '100px'
 }
 
 const containerStyle = {
